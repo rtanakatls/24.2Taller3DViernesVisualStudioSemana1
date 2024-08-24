@@ -10,6 +10,8 @@ namespace _24._2Taller3DSemana1
     {
         static void Main(string[] args)
         {
+            Menu menu = new Menu();
+            menu.Execute();
         }
     }
 }
