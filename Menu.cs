@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace _24._2Taller3DSemana1
 {
-    internal class Menu
+    internal class Menu : MenuParent
     {
-        public void Execute()
+        public override void Execute()
         {
             string name;
             int age;

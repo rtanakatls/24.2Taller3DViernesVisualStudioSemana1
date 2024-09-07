@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _24._2Taller3DSemana1.Week3;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,7 @@ namespace _24._2Taller3DSemana1
     {
         static void Main(string[] args)
         {
-            Menu menu = new Menu();
+            MenuParent menu = new MenuStudent();
             menu.Execute();
         }
     }
